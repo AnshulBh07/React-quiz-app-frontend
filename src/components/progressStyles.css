@@ -1,0 +1,43 @@
+.container__progressBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.bar {
+  height: 0.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #9ba5ba;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.inner-bar {
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #4780fd;
+}
+
+@media screen and (max-width: 30em) {
+  .container__progressBar {
+    gap: 0.9rem;
+  }
+
+  .bar {
+    height: 0.6rem;
+  }
+}

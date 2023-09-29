@@ -1,0 +1,15 @@
+.container__loading {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  height: 23rem;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.conatiner__loading > h2 {
+  color: #3d434d;
+  font-weight: 400;
+}
