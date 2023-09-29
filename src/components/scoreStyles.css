@@ -31,8 +31,14 @@
   box-shadow: 4px 3px 5px #000000;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 30rem) {
   .score-info {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  .score-info {
+    font-size: 1rem;
   }
 }

@@ -32,12 +32,22 @@
   background-color: #4780fd;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 30rem) {
   .container__progressBar {
     gap: 0.9rem;
   }
 
   .bar {
     height: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  .container__progressBar {
+    gap: 0.6rem;
+  }
+
+  .info {
+    font-size: 0.8rem;
   }
 }

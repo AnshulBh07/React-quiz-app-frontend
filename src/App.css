@@ -56,7 +56,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 30rem) {
   .app {
     padding: 1rem;
   }
@@ -69,5 +69,25 @@
   .container__header > h1 {
     font-size: 2.5rem;
     font-weight: 580;
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  .app {
+    justify-content: center;
+  }
+
+  .container__header {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .container__header h1 {
+    font-size: 2rem;
+  }
+
+  .container__header img {
+    height: 10rem;
+    width: 10rem;
   }
 }

@@ -107,7 +107,7 @@
   background-color: #282c34;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 30rem) {
   .container__question {
     width: 85%;
   }
@@ -119,5 +119,23 @@
 
   .option-btn {
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 22.5rem) {
+  .ques {
+    font-size: 0.8rem;
+  }
+
+  .container__question {
+    gap: 0.8rem;
+  }
+
+  .option-btn {
+    font-size: 0.7rem;
+  }
+
+  .option-btn:hover {
+    transform: translateX(1.6rem);
   }
 }

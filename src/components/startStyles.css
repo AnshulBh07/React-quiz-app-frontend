@@ -42,3 +42,13 @@
     font-size: 1.3rem;
   }
 }
+
+@media screen and (max-width: 22.5rem) {
+  .container__start > h1 {
+    font-size: 1.2rem;
+  }
+
+  .container__start > h2 {
+    font-size: 1.1rem;
+  }
+}
