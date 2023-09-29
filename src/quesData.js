@@ -29,7 +29,7 @@ export const quesArray = [
   {
     question: "Who created React.js?",
     options: ["Jordan Mike", "Jordan Walke", "Tim Lee", "Jordan Lee"],
-    correctAns: 2,
+    correctAns: 1,
     points: 10,
   },
   {
@@ -64,7 +64,7 @@ export const quesArray = [
     question:
       "Which of the following port is the default where webpack-dev-server runs?",
     options: ["3000", "3306", "3030", "8080"],
-    correctAns: 4,
+    correctAns: 3,
     points: 10,
   },
   {
