@@ -138,4 +138,8 @@
   .option-btn:hover {
     transform: translateX(1.6rem);
   }
+
+  .answer {
+    transform: translateX(1.6rem);
+  }
 }
